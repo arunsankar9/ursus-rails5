@@ -1,0 +1,52 @@
+body.page-background {
+  background-color: white;
+}
+
+.page-section{
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+
+.account-column-content {
+  border: 1px solid;
+  border-radius: 4px;
+  color: #bfcaca;
+}
+
+.attached-column-header {
+  background-color: #dadede;
+  color: black;
+  font-weight: bold;
+  margin-top: 0px;
+  padding: 5px 0px 5px 10px;
+}
+
+.account-column-info {
+  color: black;
+  margin-left: 10px;
+}
+
+.form-widget {
+  margin-left: 10px;
+  width: 90%;
+}
+
+.form-control {
+  border-radius: 8px;
+}
+
+.label-font {
+  color: black;
+}
+
+.static-account-info {
+  margin-left: 15px;
+}
+
+input[type="submit"].btn-block, .account-update-button{
+  width: 140px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}

@@ -1,0 +1,47 @@
+.navbar-wrapper {
+  margin-bottom: 20px;
+}
+
+.navbar-background {
+  background-color: #f5f5f5;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #7f7f7f;
+  text-decoration: none;
+}
+
+.navbar-alignment {
+  margin-top: 5px;
+}
+
+.navbar-nav li a.user-dropdown-link:hover {
+  color: #565555;
+}
+
+.navbar-collapse.collapse.navbar-padding {
+  padding-bottom: 5px;
+}
+
+.navbar-nav .new-incident-link {
+  margin-top: 7px;
+  line-height: 8px;
+}
+
+.navbar-nav li a.new-incident-link:hover {
+  color: #565555;
+}
+
+.dropdown-menu{
+  background-color: #f5f5f5;
+}
+
+.dropdown-menu .dropdown-selections:hover {
+  color: #565555;
+  background-color: inherit;
+}
+
+.dropdown-pointer {
+  cursor: pointer;
+  background-color: inherit;
+}

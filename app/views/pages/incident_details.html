@@ -1,0 +1,119 @@
+<div class="incident-details col-md-6">
+  <form class="form-group row" style="margin-left:10px; margin-right:10px;">
+    <div class="form-group row">
+      <label class="col-sm-5">Primary Agency</label>
+      <div class="col-sm-7">
+        <select class="form-control">
+          <option selected>DOJ</option>
+          <option>Agency 1</option>
+          <option>Agency 2</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-5">Date of Incident</label>
+      <div class="col-sm-7">
+        <input class="form-control" date-date-format="YYYY-MM-DD" type="date" name="incident-date">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-5">Time of Incident</label>
+      <div class="col-sm-7">
+        <input class="form-control" type="time" name="incident-time">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-5">Location</label>
+      <div class="col-sm-7">
+        <table class="table table-bordered table-hover">
+          <tr>
+            <th>Street Address</th>
+            <td><input type="text" class="form-control" name="address1" placeholder="Address Line 1"></td>
+          </tr>
+          <tr>
+            <th>Address Line 2</th>
+            <td><input type="text" class="form-control" name="address2" placeholder="Address Line 2"></td>
+          </tr>
+          <tr>
+            <th>City</th>
+            <td><input type="text" class="form-control" name="city" placeholder="City"></td>
+          </tr>
+          <tr>
+            <th>County</th>
+            <td><input type="text" class="form-control" name="city" placeholder="County"></td>
+          </tr>
+          <tr>
+            <th>State</th>
+            <td><input type="text" class="form-control" name="state" placeholder="State"></td>
+          </tr>
+          <tr>
+            <th>Zip Code</th>
+            <td><input type="text" class="form-control" name="zip_code" placeholder="Zip Code"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-4">Was Arrest Made</label>
+      <div>
+        <span class="radio-button-style"><input type="radio" name="arrest"> Yes</span>
+        <span><input type="radio" name="arrest"> No</span>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-4">Was Crime Report Filed</label>
+      <div>
+        <span class="radio-button-style"><input type="radio" name="report"> Yes</span>
+        <span><input type="radio" name="report"> No</span>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-5">Number of Officers Involved</label>
+      <div class="col-sm-7">
+        <input class="form-control" type="number" name="officers">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-5">Number of Civilians Involved</label>
+      <div class="col-sm-7">
+        <input class="form-control" type="number" name="civilians">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-5">Cause of Incident</label>
+      <div class="col-sm-7">
+        <select class="form-control">
+          <option value="" disabled selected>Select cause</option>
+          <option>Call for Service</option>
+          <option>In Custody Event</option>
+          <option>Consensual Encounter/Public Event/Flag Down</option>
+          <option>Vehicle/Bicyclye/Pedestrian Stop</option>
+          <option>Pre-Planned Activity (arrest/search warrant, parole/probation search)</option>
+          <option>Welfare Check</option>
+          <option>Crime in Progress / Investigating Suspicious Persons or Circumstances</option>
+          <option>Civil Assembly</option>
+          <option>Civil Disorder</option>
+          <option>Ambush - No Warning</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-5">Description of Events</label>
+      <div class="col-sm-7">
+        <textarea class="form-control text optional">
+        </textarea>
+        <p>10,000 character limit</p>
+      </div>
+    </div>
+    <div class="form-group pull-right">
+      <button type="button" class="btn btn-primary">Create Incident</button>
+    </div>
+  </form>
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("header")[1].remove()
+  });
+</script>
+

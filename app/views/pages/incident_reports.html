@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Incompelete Incidents | URSUS | California Use of Force Incident Reporting</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/assets//favicon.ico" />
+
+  <link href="/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="/assets/custom_css/incident_report.css" rel="stylesheet">
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $("#incomplete").load("/pages/incomplete.html");
+    $("#in_review").load("/pages/in_review.html");
+    $("#completed").load("/pages/completed.html");
+    $("#rejected").load("/pages/rejected.html");
+    $("#approved").load("/pages/approved.html");
+    $("#submitted").load("/pages/submitted.html");
+  });
+  </script>
+</head>
+
+<body class="page-background">
+  <h2 class="incidents-header">Incident Reports</h2>
+  <section>
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#incomplete">Incomplete</a></li>
+      <li><a data-toggle="tab" href="#in_review">In Review</a></li>
+      <li><a data-toggle="tab" href="#completed">Completed</a></li>
+      <li><a data-toggle="tab" href="#rejected">Rejected</a></li>
+      <li><a data-toggle="tab" href="#approved">Approved</a></li>
+      <li><a data-toggle="tab" href="#submitted">Submitted</a></li>
+    </ul>
+    <div class="tab-content">
+      <div id="incomplete" class="tab-pane fade in active">
+        <section id="incomplete"></section>
+      </div>
+      <div id="in_review" class="tab-pane fade">
+        <section id="in_review"></section>
+      </div>
+      <div id="completed" class="tab-pane fade">
+        <section id="completed"></section>
+      </div>
+      <div id="rejected" class="tab-pane fade">
+        <section id="rejected"></section>
+      </div>
+      <div id="approved" class="tab-pane fade">
+        <section id="approved"></section>
+      </div>
+      <div id="submitted" class="tab-pane fade">
+        <section id="submitted"></section>
+      </div>
+    </div>
+  </section>
+</div>
+</body>
+</html>

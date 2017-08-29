@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Log In - URSUS</title>
+	<!-- css -->
+	 <link href="/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	 <link href="/assets/style.css" rel="stylesheet">
+</head>
+
+<body class="login">
+	<!-- header -->
+	<nav class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="index.html">&nbsp;URSUS | California Use of Force Incident Reporting</a> </div>
+			</div>
+		</nav>
+		<!-- main content -->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-4">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h2 class="panel-title">Log In</h2>
+						</div>
+						<div class="panel-body">
+							<form method="post">
+								<div class="form-group">
+									<label>Username</label>
+									<input type="text" class="form-control">
+								</div>
+								<div class="form-group">
+									<label>Password</label>
+									<input type="password" class="form-control">
+								</div>
+								<a href="home.html" class="btn btn-primary btn-block">Log In</a>
+							</form>
+						</div>
+					</div>
+					<p class="text-center"><a href="#">Request access to this app</a></p>
+				</div>
+			</div>
+		</div>
+		<!-- end main content -->
+	</body>
+	</html>
+
+	<script>
+		$(document).ready(function() {
+			$("header").remove();
+		} )
+	</script>

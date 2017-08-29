@@ -1,0 +1,27 @@
+html {
+  overflow: scroll;
+}
+
+body.page-background {
+  background-color: white;
+  height: 100%;
+  padding-bottom: 135px;
+  overflow: scroll;
+}
+
+.details-header {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.radio-button-style {
+  margin-left: 65px;
+  margin-right: 15px;
+}
+
+table.incident-address-table {
+  width: 53%;
+  float: right;
+  margin-right: 17px;
+  border-radius: 8px;
+}

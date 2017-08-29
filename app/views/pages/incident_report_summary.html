@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>New Incident | URSUS | California Use of Force Incident Reporting</title>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
+
+  <link href="/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="/assets/custom_css/new_incident.css" rel="stylesheet">
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("#incident_summary").load("/pages/incident_summary.html");
+      $("#civilian_summary").load("/pages/civilian_summary.html");
+      $("#officer_summary").load("/pages/officer_summary.html");
+    });
+  </script>
+</head>
+
+<body class="page-background">
+  <section>
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#incident">Incident Details</a></li>
+      <li><a data-toggle="tab" href="#civilian">Civilian Details</a></li>
+      <li><a data-toggle="tab" href="#officer">Officer Details</a></li>
+    </ul>
+    <div class="tab-content">
+      <div id="incident" class="tab-pane fade in active">
+        <h2 class="details-header">Incident Details</h2>
+        <section id="incident_summary"></section>
+      </div>
+      <div id="civilian" class="tab-pane fade">
+        <h2 class="details-header">Civilian Details</h2>
+        <section id="civilian_summary"></section>
+      </div>
+      <div id="officer" class="tab-pane fade">
+        <h2 class="details-header">Officer Details</h2>
+        <section id="officer_summary"></section>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

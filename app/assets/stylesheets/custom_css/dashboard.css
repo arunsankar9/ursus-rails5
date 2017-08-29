@@ -1,0 +1,71 @@
+body.page-background {
+  background-color: white;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, td, th {
+  border: 1px solid #cecece;
+}
+
+td, th {
+  padding-left: 10px; !important
+}
+
+.table-row {
+  color: black;
+}
+
+.summary-table {
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
+
+.right-section {
+  min-height: 100%;
+  width: 70%;
+  position: relative;
+  float: right;
+}
+
+.user-welcome-header {
+  margin-top: 15px;
+}
+
+.user-agency {
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.incident-report-container {
+  max-width: 600px;
+  border: 1px solid;
+  border-radius: 4px;
+  color: #bfcaca;
+}
+
+.incident-report-table-header {
+  background-color: #dadede;
+  color: black;
+  font-weight: bold;
+  margin-top: 0px;
+  padding: 5px 0px 5px 5px;
+}
+
+.incident-report-table {
+  margin-top: -10px;
+  color: #ddd;
+  width: 100%;
+  height: 200px;
+}
+
+.incident-code {
+  text-decoration: none;
+}
+
+.incident-code:hover {
+  color: #900;
+  text-decoration: none;
+}

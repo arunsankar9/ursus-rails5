@@ -1,0 +1,295 @@
+<div class="incident-details col-md-6">
+  <form class="form-group row" style="margin-left:10px; margin-right:10px;">
+    <div class="form-group row">
+      <label class="col-sm-5">Civilian</label>
+      <div class="col-sm-7">
+        <input type="text" class="form-control" name="civilian" value="1">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-5">Officer(s) Engaged</label>
+      <div class="col-sm-7">
+        <input type="text" class="form-control" name="civilian" value="1">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-4">Was Civilian Injured</label>
+      <div>
+        <span class="radio-button-style"><input type="radio" name="injured"> Yes</span>
+        <span><input type="radio" name="injured"> No</span>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-4">Injury Level</label>
+      <div>
+        <span class="radio-button-style"><input type="radio" name="level"> Injury</span>
+        <span><input type="radio" name="level"> Serious bodily injury</span>
+        <span><input type="radio" name="level"> Death</span>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-5">Injury Type</label>
+      <div class="col-sm-7">
+        <select class="form-control">
+          <option value="" disabled selected>Select</option>
+          <option>Unconscious</option>
+          <option>Concussion</option>
+          <option>Bone fracture</option>
+          <option>Internal Injury</option>
+          <option>Abrasion/Laceration</option>
+          <option>Obvious disfigurement</option>
+          <option>Gunshot wound</option>
+          <option>Stabbing wound</option>
+          <option>Cut</option>
+          <option>Sprain</option>
+          <option>Dislocation</option>
+          <option>Bruised </option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-5">Medical Aid</label>
+      <div class="col-sm-7">
+        <select class="form-control">
+          <option value="" disabled selected>Select aid received</option>
+          <option>No medical assistance or refused assitance</option>
+          <option>Medical assistance - treated on scene</option>
+          <option>Medical assistance - treated at facility and released</option>
+          <option>Died in transit</option>
+          <option>Admitted to hospital - precautionary measure only</option>
+          <option>Admitted to hospital - critical injuries</option>
+          <option>Admitted to hospital - other circumstance</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-4">Pre existing condition</label>
+      <div>
+        <span class="radio-button-style"><input type="radio" name="preexisting"> Yes</span>
+        <span><input type="radio" name="preexisting"> No</span>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-5">Age</label>
+      <div class="col-sm-7">
+        <select class="form-control">
+          <option value="" disabled selected>Select</option>
+          <option>0-9</option>
+          <option>10-17</option>
+          <option>18-20</option>
+          <option>21-25</option>
+          <option>26-30</option>
+          <option>36-40</option>
+          <option>41-45</option>
+          <option>46-50</option>
+          <option>51-55</option>
+          <option>56-60</option>
+          <option>61-65</option>
+          <option>66-70</option>
+          <option>71-75</option>
+          <option>76-80</option>
+          <option>81-85</option>
+          <option>86-90</option>
+          <option>91-95</option>
+          <option>96-100+</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-4">Gender</label>
+      <div>
+        <span class="radio-button-style"><input type="radio" name="gender"> Male</span>
+        <span><input type="radio" name="gender"> Female</span>
+        <span><input type="radio" name="gender"> Transgender</span>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-5">Race</label>
+      <div class="col-sm-7">
+        <select class="form-control">
+          <option value="" disabled selected>Select</option>
+          <option>American Indian</option>
+          <option>Asian Indian</option>
+          <option>Black</option>
+          <option>Hispanic</option>
+          <option>White</option>
+          <option>Asian</option>
+          <option>Hawaiian/Pacific Islander</option>
+          <option>Other</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-4">Assaulted Officer</label>
+      <div>
+        <span class="radio-button-style"><input type="radio" name="assault"> Yes</span>
+        <span><input type="radio" name="assault"> No</span>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-5">Arrested or In Custody</label>
+      <div class="col-sm-7">
+        <select class="form-control">
+          <option value="" disabled selected>Select</option>
+          <option>Cited and released</option>
+          <option>In custody(W&I Section 5150)</option>
+          <option>In custody(other)</option>
+          <option>Fled</option>
+          <option>Deceased</option>
+          <option>Suicide</option>
+          <option>None of these</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-4">Perceived Armed</label>
+      <div>
+        <span class="radio-button-style"><input type="radio" name="perceived_armed"> Yes</span>
+        <span><input type="radio" name="perceived_armed"> No</span>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-5">Perceived Weapon Type</label>
+      <div class="col-sm-7">
+        <select class="form-control">
+          <option value="" disabled selected>Select</option>
+          <option>Firearm</option>
+          <option>Knife, blade, or stabbing instrument</option>
+          <option>Other dangerous weapon</option>
+          <option>Unknown</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-4">Confirmed Armed</label>
+      <div>
+        <span class="radio-button-style"><input type="radio" name="confirm_armed"> Yes</span>
+        <span><input type="radio" name="confirm_armed"> No</span>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-5">Confirmed Weapon Type</label>
+      <div class="col-sm-7">
+        <select class="form-control">
+          <option value="" disabled selected>Select</option>
+          <option>Firearm</option>
+          <option>Firearm Replica</option>
+          <option>Knife, blade, or stabbing instrument</option>
+          <option>Other dangerous weapon</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-5">Firearm Type</label>
+      <div class="col-sm-7">
+        <select class="form-control">
+          <option value="" disabled selected>Select</option>
+          <option>Handgun</option>
+          <option>Rifle</option>
+          <option>Shotgun</option>
+          <option>Other</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-4">Resisted</label>
+      <div>
+        <span class="radio-button-style"><input type="radio" name="resisted"> Yes</span>
+        <span><input type="radio" name="resisted"> No</span>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-5">Resistance Level</label>
+      <div class="col-sm-7">
+        <select class="form-control">
+          <option value="" disabled selected>Select</option>
+          <option>Passive non-compliance</option>
+          <option>Active resistance</option>
+          <option>Assaultive</option>
+          <option>Life threatening</option>
+          <option>Fleaing</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-4">Force</label>
+      <div>
+        <span class="radio-button-style"><input type="radio" name="force"> Yes</span>
+        <span><input type="radio" name="force"> No</span>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-5">Force Type</label>
+      <div class="col-sm-7">
+        <select class="form-control">
+          <option value="" disabled selected>Select</option>
+          <option>Carotid restraint control hold</option>
+          <option>Other control hold/takedown</option>
+          <option>Other physical contact</option>
+          <option>Blunt/impact weapon</option>
+          <option>Chemical Spray(e.g. OC/CS)</option>
+          <option>Electronic control device</option>
+          <option>Impact projectile</option>
+          <option>Knife, blade, or tabbing instrument</option>
+          <option>Threat of firearm</option>
+          <option>Discharge of firearm(miss)</option>
+          <option>Discharge of firearm(hit)</option>
+          <option>Other dangerous weapon </option>
+          <option>K-9 contact </option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-5">Force Location</label>
+      <div class="col-sm-7">
+        <select class="form-control">
+          <option value="" disabled selected>Select</option>
+          <option>Not Applicable</option>
+          <option>Head</option>
+          <option>Neck/throat</option>
+          <option>Front upper torso/chest</option>
+          <option>Rear upper torso/back</option>
+          <option>Front lower torso/abdomen</option>
+          <option>Rear lower torso/back</option>
+          <option>Front below waist/groin area</option>
+          <option>Rear below waist/buttocks</option>
+          <option>Arms/hands</option>
+          <option>Front legs/feet</option>
+          <option>Rear legs</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-4">Force Order</label>
+      <div>
+        <span class="radio-button-style"><input type="radio" name="order"> Yes</span>
+        <span><input type="radio" name="order"> No</span>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-5">Behavior</label>
+      <div class="col-sm-7">
+        <select class="form-control">
+          <option value="" disabled selected>Select</option>
+          <option>Signs of mental disability</option>
+          <option>Signs of developmental disability</option>
+          <option>Signs of physical disability</option>
+          <option>Signs of drug impairment</option>
+          <option>Signs of alcohol impairment</option>
+          <option>Erratic behavior - no apparent reason</option>
+          <option>None</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group pull-right">
+      <button type="button" class="btn btn-primary">Save</button>
+      <button type="button" class="btn btn-success">Add civilian</button>
+    </div>
+  </form>
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("header")[1].remove()
+  });
+</script>

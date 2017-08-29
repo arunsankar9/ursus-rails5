@@ -1,0 +1,26 @@
+body.page-background {
+  background-color: white;
+}
+
+.right-section {
+  float: right;
+  margin-right: 50px;
+}
+
+.incidents-header {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.incident-table {
+  width: 70%;
+  margin-left: 20px;
+}
+
+.search-filter {
+  margin: 20px;
+}
+
+.incident-table-info {
+  margin-left: 20px;
+}

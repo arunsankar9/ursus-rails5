@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Scripts -->
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" ></script> 
+
+		<link href="/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<link href="/assets/custom_css/header.css" rel="stylesheet">
+		<link href="/assets/custom_css/footer.css" rel="stylesheet">
+
+
+	</head>
+	<body>
+		<header>
+			<div class="navbar-wrapper">
+				<nav class="navbar navbar-default navbar-background" role="navigation">
+					<div class="container navbar-alignment">
+						<div class="navbar-header page-scroll">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a href="/"><img src="/assets/ursus_logo_small.png" height="45px"></a>
+						</div>
+						<div id="navbar" class="navbar-collapse collapse navbar-padding">
+							<ul class="nav navbar-nav navbar-right">
+								<li><%= link_to "New Incident", "/pages/new_incident.html"%></li>
+								<li><%= link_to "Incident Reports", "/pages/incident_reports.html"%></li>
+
+								<li class="dropdown dropdown-pointer user-dropdown-link"><a class="user-dropdown-link" data-toggle="dropdown" href="#">RSmith<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a class="dropdown-selections" href="/account.html">Account</a></li>
+										<li><a class="dropdown-selections" href="#">Log Out</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<%= yield %>
+		<footer>
+			<div class="doj-seal-postion">
+				<a target="_blank" href="https://oag.ca.gov"><img src="/assets/doj_seal.png" height="100px"></a>
+			</div>
+			<div>
+				<div class="footer-link-position">
+					<a class="footer-links" href="#">FAQ</a>
+				</div>
+				<div class="footer-link-position">
+					<a class="footer-links" href="#">Announcements</a>
+				</div>
+				<div class="footer-link-position">
+					<a target="_blank" class="footer-links" href="https://www.youtube.com/watch?v=XgxHvSZukVc&list=PLZldm5UisZ7hF0URq50Eb1H7HmLYpUsqa">Tutorial Videos</a>
+				</div>
+			</div>
+			<div>
+				<p class="contact-heading" href="#">Contact Info</p>
+			</div>
+			<div class="contact-information">
+				<p>Monday - Friday (8:00am - 5:00pm PST)</p>
+				<p><i class="fa fa-phone" aria-hidden="true"></i> (916) 210-4284</p>
+				<a class="email-link" href="mailto:ursus@doj.ca.gov"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a>
+			</div>
+		</footer>
+	</body>
+</html>
